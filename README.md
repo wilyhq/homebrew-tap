@@ -3,6 +3,8 @@
 Homebrew tap for [wily](https://wily.bot).
 
 ```sh
+brew tap wilyhq/tap
+brew trust --tap wilyhq/tap            # Homebrew loads third-party taps only once trusted
 brew install --cask wilyhq/tap/wily   # desktop app (updates itself after install)
 brew install wilyhq/tap/wily-cli      # command-line tool
 ```
