@@ -1,9 +1,9 @@
 class WilyCli < Formula
   desc "Command-line tool for wily"
   homepage "https://wily.bot/"
-  url "https://dl.wily.bot/installers/macos/wily-cli-0.1.4-35d3ac2-macos-arm64.tar.gz"
-  version "0.1.4"
-  sha256 "7be9af0f8ea84ff385aba8d5fdc657f9c9c0ed804ddedee2df7484df48c23181"
+  url "https://dl.wily.bot/installers/macos/wily-cli-0.1.6-6a08656-macos-arm64.tar.gz"
+  version "0.1.6"
+  sha256 "004977402309098a5ef3d8dc702491861b065365ae81c5c9eb308261c1be9444"
 
   depends_on arch: :arm64
   depends_on :macos

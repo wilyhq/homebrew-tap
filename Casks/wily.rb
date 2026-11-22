@@ -1,6 +1,6 @@
 cask "wily" do
-  version "0.1.4,35d3ac2"
-  sha256 "7278d0f7adb610f6fc7483457bd622bd14b9283c80e6d11ef281cdde1d65f6ba"
+  version "0.1.6,6a08656"
+  sha256 "d9222fa4e40ec0bde1fae07a2528d540c83f061e6975660c95364b431aaa77f0"
 
   url "https://dl.wily.bot/installers/macos/wily-#{version.csv.first}-#{version.csv.second}-macos-arm64.zip"
   name "wily"
