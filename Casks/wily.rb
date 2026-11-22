@@ -9,7 +9,6 @@ cask "wily" do
 
   # The app checks updates.wily.bot itself (Settings → Updates) and replaces itself.
   auto_updates true
-  conflicts_with formula: "wily-cli"
   depends_on arch: :arm64
   depends_on :macos
 

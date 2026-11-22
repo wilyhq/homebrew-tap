@@ -8,8 +8,6 @@ class WilyCli < Formula
   depends_on arch: :arm64
   depends_on :macos
 
-  conflicts_with cask: "wily"
-
   def install
     bin.install "wily"
     generate_completions_from_executable(bin/"wily", "completions")
